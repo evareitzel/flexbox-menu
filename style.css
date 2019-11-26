@@ -1,0 +1,152 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+} 
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    /* background-image: linear-gradient(240deg, #f0c814 0%, 
+    #e2eecf 50%); */
+    background-image: linear-gradient(240deg, #f0c814 0%, 
+    #8EBB98 50%);
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background: rgba(0,0,0,0.1);
+    padding: 20px 0px;
+}
+
+h2 {
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background: rgba(0,0,0,0.1);
+    padding: 20px 5px;
+}
+
+h3{
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h4 {
+   color: white;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+/*
+ul {
+    margin-left: -50px;
+}
+*/
+
+li {
+    color: #ffffff;
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    display: inline-block;
+   
+}
+
+a:hover {
+   color: rgba(0,0,0,0.3);
+}
+
+.address {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.phone {
+    text-align:center;
+}
+
+.toggleNav {
+    display: none;
+}
+
+.flex-nav a {
+    color: white;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background: rgba(0,0,0,0.1);
+    padding: 20px 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.flex-nav a:hover {
+    background: rgba(0,0,0,0.2);
+    padding: 20px 0px;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90%;
+    left: 90%;
+    background: rgba(0,0,0,0.1);
+    padding: 15px 0px 15px 0px;
+    font-size: 20px;
+    width: 55px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+.footer {
+    background: rgba(0,0,0,0.1);
+    padding: 20px 5px;
+    text-align: center;
+}
+
+.footer i {
+    
+}
+
+/*Flex Container */
+.flex-nav ul {
+    border: 1px solid rgba(0,0,0,0.3);
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    /* display: flex; */
+}
